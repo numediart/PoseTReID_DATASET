@@ -1,0 +1,31 @@
+name: Build
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    - name: Prepare data
+      run: |
+        cd datasets
+        python decompressor.py
+    - name: Build .whl
+      run: |
+        cd pyppbox-data-gta5
+        export PYTHONWARNINGS="ignore"
+        python -m pip install --upgrade pip
+        pip install wheel build
+        python -m build --wheel --skip-dependency-check --no-isolation
+    - name: Archive all
+      uses: actions/upload-artifact@v3
+      with:
+        name: dist-whl
+        path: |
+          pyppbox-data-gta5/dist

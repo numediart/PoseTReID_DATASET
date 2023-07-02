@@ -1,0 +1,29 @@
+GTA_V_DATASET  ............  PoseTReID's GTA_V_DATASET, pyppbox-data-gta5
+├───body_128x256  .........  Cropped & classified body boxes in 128x256
+│   ├───Amanda
+│   │       *.jpg
+│   ├───Franklin
+│   │       *.jpg
+│   ├───Lester
+│   │       *.jpg
+│   ├───Michael
+│   │       *.jpg
+│   └───Trevor
+│           *.jpg
+├───faces_182x182  ........  Cropped & classified face boxes in 182x182
+│   ├───Amanda
+│   │       *.png
+│   ├───Franklin
+│   │       *.png
+│   ├───Lester
+│   │       *.png
+│   ├───Michael
+│   │       *.png
+│   └───Trevor
+│           *.png
+├───ground_truth  .........  Ground-truth directory
+│       gt_map.txt  .......  VIDEO:TXT mapping file
+│       *.txt  ............  Ground-truth  .txt file
+│       *.csv  ............  Ground-truth  .csv file
+└───videos
+        *.mp4

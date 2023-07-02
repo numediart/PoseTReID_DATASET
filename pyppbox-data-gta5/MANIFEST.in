@@ -1,0 +1,4 @@
+include *.md *.in *.TXT LICENSE
+exclude *.cmd
+recursive-include pyppbox *
+recursive-exclude __pycache__ *
