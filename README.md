@@ -8,7 +8,7 @@
 
 </div>
 
-PoseTReID is a generic framework which combines detector, tracker, and re-identifier in order to effectively track specific people accross multiple cameras or video scenses, in both short and long term for distributed contexts of people interaction spaces such as malls or amusement parks, etc.
+***PoseTReID*** is a generic framework which combines detector, tracker, and re-identifier in order to effectively track specific people accross multiple cameras or video scenses, in both short and long term for distributed contexts of people interaction spaces such as malls or amusement parks, etc. Check more our paper for more details -> [[IEEE]](https://ieeexplore.ieee.org/document/9271712).
 
 ## 🖴 Dataset #1: `GTA_V_DATASET`
 
@@ -18,7 +18,7 @@ PoseTReID is a generic framework which combines detector, tracker, and re-identi
 
 </div>
 
-`GTA_V_DATASET` dataset is specifically designed for testing our PoseTReID in our distributed contexts. All videos were rendered in 16:9 ratio at a resolution of 1080p with our custom script. Afterwards, they were down-scaled to 720p to fit our real-time testing scenarios and to be more realistic like real-life cameras. 
+`GTA_V_DATASET` dataset is specifically designed for testing our ***PoseTReID*** in our distributed contexts. All videos were rendered in 16:9 ratio at a resolution of 1080p with our custom script. Afterwards, they were down-scaled to 720p to fit our real-time testing scenarios and to be more realistic like real-life cameras. 
 
 The ground-truth is provided in 2 different formats such as `.txt` and `.csv` for every video with the real IDs (names) of the characters.
 
@@ -65,7 +65,7 @@ pip install https://github.com/rathaumons/PoseTReID_DATASET/releases/download/v2
 For result and evaluation tools, please check our [`pyppbox`](https://github.com/rathaumons/pyppbox).
 
 ## 🔗 Papper Citation
-Please kindly cite this paper if you use this dataset in your paper:
+Please kindly cite this paper if you use this dataset in your paper [[IEEE]]([***PoseTReID***](https://ieeexplore.ieee.org/document/9271712)):
 ```
 @INPROCEEDINGS{ptreid9271712,
   author={Siv, Ratha and Mancas, Matei and Sreng, Sokchenda and Chhun, Sophea and Gosselin, Bernard},
