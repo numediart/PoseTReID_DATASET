@@ -8,7 +8,7 @@
 
 </div>
 
-PoseTReID is a generic framework for real-time 2D multi-person tracking along with face re-identification specifically for distributed people interaction spaces such as malls or parks.
+PoseTReID is a generic framework which combines detector, tracker, and re-identifier in order to effectively track specific people accross multiple cameras or video scenses, in both short and long term for distributed contexts of people interaction spaces such as malls or amusement parks, etc.
 
 ## 🖴 Dataset #1: `GTA_V_DATASET`
 
@@ -18,7 +18,7 @@ PoseTReID is a generic framework for real-time 2D multi-person tracking along wi
 
 </div>
 
-`GTA_V_DATASET` dataset is specifically designed for testing PoseTReID in our distributed contexts. All videos were rendered in 16:9 ratio at a resolution of 1080p with our custom script. Afterwards, they were down-scaled to 720p to fit our real-time testing scenarios and to be more realistic like real-life cameras. 
+`GTA_V_DATASET` dataset is specifically designed for testing our PoseTReID in our distributed contexts. All videos were rendered in 16:9 ratio at a resolution of 1080p with our custom script. Afterwards, they were down-scaled to 720p to fit our real-time testing scenarios and to be more realistic like real-life cameras. 
 
 The ground-truth is provided in 2 different formats such as `.txt` and `.csv` for every video with the real IDs (names) of the characters.
 
