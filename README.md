@@ -8,7 +8,7 @@
 
 </div>
 
-***PoseTReID*** is a generic framework which combines detector, tracker, and re-identifier in order to effectively track specific people across multiple cameras or video scenes, in both short and long term for distributed contexts of people interaction spaces such as malls or amusement parks, etc. Check more our paper for more details -> [[IEEE]](https://ieeexplore.ieee.org/document/9271712).
+***PoseTReID*** is a generic framework which combines detector, tracker, and re-identifier in order to effectively track specific people across multiple cameras or video scenes, in both short and long term for distributed contexts of people interaction spaces such as malls or amusement parks, etc. Check our paper for more details -> [[IEEE]](https://ieeexplore.ieee.org/document/9271712).
 
 ## 🖴 Dataset #1: `GTA_V_DATASET`
 
