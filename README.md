@@ -4,7 +4,7 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/rathaumons/PoseTReID_DATASET/master/PoseTReID.png">
+<img src="https://raw.githubusercontent.com/numediart/PoseTReID_DATASET/main/PoseTReID.png">
 
 </div>
 
@@ -14,7 +14,7 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/rathaumons/PoseTReID_DATASET/master/overview.png">
+<img src="https://raw.githubusercontent.com/numediart/PoseTReID_DATASET/main/overview.png">
 
 </div>
 
@@ -24,7 +24,7 @@ The ground-truth is provided in 2 different formats such as `.txt` and `.csv` fo
 
 This dataset is shared under license: [Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
 
-<img src="https://raw.githubusercontent.com/rathaumons/PoseTReID_DATASET/master/cc-by-sa.png" width="128">
+<img src="https://raw.githubusercontent.com/numediart/PoseTReID_DATASET/master/cc-by-sa.png" width="128">
 
 ### 🆕 Updated 2023:
 
@@ -51,14 +51,14 @@ Each line in the ground-truth text file represents a person in a frame, and it c
 
 ### 🆕 `pyppbox-data-gta5`:
 
-[`pyppbox-data-gta5`](pyppbox-data-gta5) is a package of the restructured `GTA_V_DATASET` for [`pyppbox`](https://github.com/rathaumons/pyppbox) V3.
+[`pyppbox-data-gta5`](pyppbox-data-gta5) is a package of the restructured `GTA_V_DATASET` for [`pyppbox`](https://github.com/rathaumons/pyppbox) V3+.
 
-Download from [releases](https://github.com/rathaumons/PoseTReID_DATASET/releases) or install directly:
+Download from [releases](https://github.com/numediart/PoseTReID_DATASET/releases) or install directly:
 ```
-pip install https://github.com/rathaumons/PoseTReID_DATASET/releases/download/v2.0/pyppbox_data_gta5-2.0-py3-none-any.whl
+pip install https://github.com/numediart/PoseTReID_DATASET/releases/download/v2.0/pyppbox_data_gta5-2.0-py3-none-any.whl
 ```
 
-[![Build](https://github.com/rathaumons/PoseTReID_DATASET/actions/workflows/build.yaml/badge.svg)](https://github.com/rathaumons/PoseTReID_DATASET/actions/workflows/build.yaml)
+[![Build](https://github.com/numediart/PoseTReID_DATASET/actions/workflows/build.yaml/badge.svg)](https://github.com/numediart/PoseTReID_DATASET/actions/workflows/build.yaml)
 
 ## 🚀 Code?
 
