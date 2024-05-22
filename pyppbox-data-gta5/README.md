@@ -1,7 +1,7 @@
 # `pyppbox-data-gta5`
 
-* `pyppbox-data-gta5` is a package of the restructured `GTA_V_DATASET` for [`pyppbox`](https://github.com/rathaumons/pyppbox) V3.
-* Download `.whl`: https://github.com/rathaumons/PoseTReID_DATASET/releases
+* `pyppbox-data-gta5` is a package of the restructured `GTA_V_DATASET` for [`pyppbox`](https://github.com/rathaumons/pyppbox) V3+.
+* Download `.whl`: https://github.com/numediart/PoseTReID_DATASET/releases
 * Structure `pyppbox-data-gta5`:
 
   ```
@@ -47,7 +47,7 @@
   #                                                                           #
   #   Copyright (c) 2023 Ratha SIV                                            #
   #                                                                           #
-  #   pyppbox-data-gta5: The restructured GTA_V_DATASET for pyppbox V3.       #
+  #   pyppbox-data-gta5: The restructured GTA_V_DATASET for pyppbox V3+.      #
   #                                                                           #
   # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
   ```
