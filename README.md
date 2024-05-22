@@ -24,7 +24,7 @@ The ground-truth is provided in 2 different formats such as `.txt` and `.csv` fo
 
 This dataset is shared under license: [Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
 
-<img src="https://raw.githubusercontent.com/numediart/PoseTReID_DATASET/master/cc-by-sa.png" width="128">
+<img src="https://raw.githubusercontent.com/numediart/PoseTReID_DATASET/main/cc-by-sa.png" width="128">
 
 ### 🆕 Updated 2023:
 

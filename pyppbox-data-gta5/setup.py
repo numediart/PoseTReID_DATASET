@@ -6,7 +6,7 @@
 #                                                                           #
 #   Copyright (c) 2023 Ratha SIV                                            #
 #                                                                           #
-#   pyppbox-data-gta5: The restructured GTA_V_DATASET for pyppbox V3.       #
+#   pyppbox-data-gta5: The restructured GTA_V_DATASET for pyppbox V3+.      #
 #                                                                           #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
@@ -23,9 +23,9 @@ def main():
     setup(
         name="pyppbox-data-gta5",
         version="2.0",
-        url="https://github.com/rathaumons/PoseTReID_DATASET",
+        url="https://github.com/numediart/PoseTReID_DATASET",
         license="MIT",
-        description="The restructured GTA_V_DATASET for pyppbox V3.",
+        description="The restructured GTA_V_DATASET for pyppbox V3+.",
         long_description=long_description,
         long_description_content_type="text/markdown",
         packages=packages,
